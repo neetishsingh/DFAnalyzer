@@ -34,7 +34,7 @@ def dataType(df,columnname):
     return df.schema[columnname].dataType
 functionList=[isHavingNullData,perNullData,isHavingNanValues,perNanValues,isHavingBlankValues,perBlankValues,dataType]
 
-def DFAnalyser(df,options):
+def dfanalyser(df,options):
     analysisdf=configureDataFrame(options)
     print(analysisdf)
     for i in df.columns:

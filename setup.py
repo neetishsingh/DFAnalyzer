@@ -7,8 +7,8 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.3'
-DESCRIPTION = 'Pyspark Dataframe Analyzer'
+VERSION = '0.0.4'
+DESCRIPTION = 'Pyspark Dataframe Analyzer - Smartest DataFrame Analysis'
 LONG_DESCRIPTION = 'A package that allows pyspark community to analyze thier datafrane before making any kind of business, technical or logical decisions.'
 
 # Setting up
