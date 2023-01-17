@@ -7,13 +7,13 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.4'
-DESCRIPTION = 'Pyspark Dataframe Analyzer - Smartest DataFrame Analysis'
-LONG_DESCRIPTION = 'A package that allows pyspark community to analyze thier datafrane before making any kind of business, technical or logical decisions.'
+VERSION = '0.0.1'
+DESCRIPTION = 'CodeMe - Automatic Python Coder'
+LONG_DESCRIPTION = 'A python package which automatically codes for you.'
 
 # Setting up
 setup(
-    name="dfanalyzer",
+    name="codeme",
     version=VERSION,
     author="Neetish Singh(AAYS Anaytics)",
     author_email="<neetishsingh97@gmail.com>",
@@ -22,7 +22,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[],
-    keywords=['python', 'pyspark','spark','ingestion','data','dataframe','analysis','schema','pandas'],
+    keywords=['python', 'pyspark','spark','ingestion','data','dataframe','analysis','schema','pandas','chatgpt','auto','bot'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",
